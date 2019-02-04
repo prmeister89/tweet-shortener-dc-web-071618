@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require 'pry'
 
 def dictionary
@@ -51,4 +52,22 @@ def shortened_tweet_truncator(tweet)
   else
     tweet
   end
+=======
+def dictionary
+  {"hello" becomes 'hi'
+"to, two, too" become '2' 
+"for, four" become '4'
+'be' becomes 'b'
+'you' becomes 'u'
+"at" becomes "@" 
+"and" becomes "&"}
+end
+
+def word_substituter(tweet)
+  new_array = tweet.split(" ")
+  value_array = tweet.values
+  binding.pry
+  tweet.each do |key, value|
+    
+>>>>>>> 50481632da297d481c2e1b2d11e904b7ecbf7b52
 end
